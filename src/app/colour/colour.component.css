@@ -1,0 +1,22 @@
+.section
+{
+    width:600px;
+    background-color: rgba(226, 218, 218, 0.966);
+    padding:20px;
+    margin:auto;
+    font-family: sans-serif;
+}
+.field
+{
+    width:400px;
+    padding:7px;
+}
+.btn
+{
+    padding:7px;
+    margin-top:3px;
+}
+.btn1
+{
+    margin-left:450px;
+}

@@ -1,0 +1,35 @@
+<div class="section">
+   
+<h2>Javascript</h2><br>
+
+<h4>I am thinking of one of these colours:</h4><br>
+
+<h4>red,orange,yellow,green,blue,indigo,violet</h4><br>
+<form>
+<h4>What colour I am thinking of ?</h4>
+<!--<input type="text" name="" class="field" placeholder="Guess the colour"><br>-->
+
+<input type="text" [value]="guess1" [(ngModel)]="guess1" name="submit" value="">
+
+
+<p>{{guess}}</p>
+
+<button type="text" name="" class="btn1 btn" (click)="getColour(target1,guess1)">OK</button>
+
+<button type="text" name="" class="btn2 btn">Cancel</button>
+
+<!--<input type="submit" value="OK">-->
+</form>
+
+
+      </div>
+     <!-- {{target1.colour}}-->
+
+<!--<div>hello
+    <ul>
+        <li *ngFor= "let i of items">
+            {{i.colour}}
+        </li>
+    </ul>
+</div>-->
+
